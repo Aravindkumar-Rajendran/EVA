@@ -5,16 +5,18 @@ In a Pulao, the all the differnt ingredients like peas, clove, rice are channels
 In a song, different sounds from a same instruments are channels. All the sounds from a instrument is kernel which extracts every other sound from the instrument.
 
 
-
+  
 Why should we only (well mostly) use 3x3 Kernels?
 
 Computationally effective.
 * Uses less number of parameters.
 * Hardwares are optimized for this kernel.
-
+  
 How many times do we need to perform 3x3 convolution operation to reach 1x1 from 199x199 (show calculations)?
 
 ``` 
+    #Just for creativity
+    
     i = 199
     n=1
     while (i>1):
