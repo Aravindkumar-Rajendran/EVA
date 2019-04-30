@@ -13,11 +13,11 @@ Computationally effective.
 How many times do we need to perform 3x3 convolution operation to reach 1x1 from 199x199 (show calculations)?
 
 No. of times: n
-    i = 199
-    n=1
-    while (i>1):
-        print("|{0} x {0}| (3 x 3) ->".format(i),end=" ")
-        i-=2
-        n+=1
-    print("|1 x 1|")
-    print("No. of times: %d"%n)
+            i = 199
+            n=1
+            while (i>1):
+                print("|{0} x {0}| (3 x 3) ->".format(i),end=" ")
+                i-=2
+                n+=1
+            print("|1 x 1|")
+            print("No. of times: %d"%n)
