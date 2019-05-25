@@ -140,7 +140,8 @@ Order is like applying from top to bottom in the algorithm development process
 
 
 
-24. Adam vs SGDAdam vs Stochastic gradient descent optimizers. Adam gives the better accuracy than that of SGD.
+24. Adam vs SGD
+   Adam vs Stochastic gradient descent are types of optimizer. Adam gives the better accuracy than that of SGD.
 
     
 
